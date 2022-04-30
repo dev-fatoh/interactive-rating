@@ -36,6 +36,7 @@ a {
     pointer-events: none;
 }
 .container {
+    
     position: relative;
     padding: 2rem;
     border-radius: 10px;
@@ -110,3 +111,40 @@ a {
     cursor: pointer;
     
 }
+.thanks{
+    
+    position: relative;
+    padding: 2rem;
+    border-radius: 10px;
+    background: hsl(213,19%,18%) ;
+    display: none;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    text-align: center;
+    
+    
+}
+.thank{
+    width: 100%;
+    padding: 2rem 2rem 0 2rem;
+  
+}
+.thank img{
+    display: block;
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    object-fit: cover;
+}
+.thank p{
+    text-align: center;
+    padding: .6rem;
+    color: var(--primary-color);
+    font-size: 1.4rem;
+    width: 70%;
+    margin:2rem auto;
+    border-radius:2rem ;
+    background:rgba(200,200,210,0.1);
+}
+
