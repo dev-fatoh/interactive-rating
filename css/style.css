@@ -33,7 +33,11 @@ ul {
 a {
     text-decoration: none;
     color: var(--secondry-mediumGrey);
-    pointer-events: none;
+    
+}
+
+.container.hide{
+    display: none;
 }
 .container {
     
@@ -41,6 +45,7 @@ a {
     padding: 2rem;
     border-radius: 10px;
     background: hsl(213,19%,18%) ;
+    transition: all 1s;
 
 }
 
@@ -80,7 +85,7 @@ a {
     justify-content: space-between ;
 }
 
-.rating-valus li{
+.rating-valus a{
     padding: .5rem;
     display: flex;
     justify-content: center ;
@@ -94,6 +99,12 @@ a {
     height: 40px;
     border-radius: 50%;
     
+}
+.rating-valus a:visited{
+    background: var(--secondry-lightGrey);
+}
+.rating-valus a:hover{
+    background: var(--primary-color);
 }
 .btn{
     width: 100%;
@@ -110,6 +121,10 @@ a {
     text-transform: uppercase;
     cursor: pointer;
     
+}
+.thanks.show{
+    display: flex;
+    transition:all 1s;
 }
 .thanks{
     
