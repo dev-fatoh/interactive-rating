@@ -40,12 +40,13 @@ a {
     display: none;
 }
 .container {
-    
+    max-width:360px;
     position: relative;
     padding: 2rem;
     border-radius: 10px;
     background: hsl(213,19%,18%) ;
     transition: all 1s;
+    margin: 0 auto;
 
 }
 
@@ -100,9 +101,8 @@ a {
     border-radius: 50%;
     
 }
-.rating-valus a:visited{
-    background: var(--secondry-lightGrey);
-}
+
+
 .rating-valus a:hover{
     background: var(--primary-color);
 }
@@ -124,10 +124,10 @@ a {
 }
 .thanks.show{
     display: flex;
-    transition:all 1s;
+    
 }
 .thanks{
-    
+    max-width: 360px;
     position: relative;
     padding: 2rem;
     border-radius: 10px;
@@ -137,6 +137,8 @@ a {
     align-items:center;
     justify-content:center;
     text-align: center;
+    margin: 0 auto;
+    transition: display 2s;
     
     
 }
