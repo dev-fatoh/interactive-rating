@@ -53,11 +53,12 @@ a {
 .star-logo {
     padding: 1rem;
     border: 0;
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     border-radius: 50%;
     background:rgba(200,200,210,0.1);
     text-align: center;
+    margin: 1rem;
 }
 
 .star-logo img {
@@ -121,6 +122,10 @@ a {
     text-transform: uppercase;
     cursor: pointer;
     
+}
+.btn:hover{
+    background: var(--secondry-white);
+    color: var(--primary-color);
 }
 .thanks.show{
     display: flex;
